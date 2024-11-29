@@ -28,7 +28,7 @@ const OrderInvoice = () => {
          :
 
         <div className="card align-items-center p-5 m-5">
-          <h1 className="text-center">You haven't placed any order yet.</h1>
+          <h1 className="text-center">You haven&apos;t placed any order yet.</h1>
           <h4><Link href={'/member'}>Select from our best plans</Link></h4>
         </div>
       }

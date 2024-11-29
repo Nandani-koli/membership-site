@@ -104,7 +104,7 @@ const User = () => {
                                     <h4 className="text-center m-3">Uploaded Documents</h4>
                                     {(documents.length > 0) ?
                                         documents.map((file, i) => (
-                                            <ul>
+                                            <ul key={i}>
                                                 <li><Link href={file} target="_blank">{`Document - ${i + 1}`}</Link></li>
                                             </ul>
                                         ))

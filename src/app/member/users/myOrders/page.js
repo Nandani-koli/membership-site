@@ -4,7 +4,7 @@ import Link from "next/link";
 import Loading from "../../loading";
 import { useRouter } from "next/navigation";
 
-const myOrders = () => {
+const MyOrders = () => {
 
     const router = useRouter();
     const [orders, setorders] = useState([]);
@@ -30,13 +30,13 @@ const myOrders = () => {
                     {isloading ? <Loading /> : null}
                     {(orders.length == 0) ?
                         <div className="card align-items-center p-5 m-5">
-                            <h1 className="text-center">You haven't placed any order yet.</h1>
+                            <h1 className="text-center">You haven&apos;t placed any order yet.</h1>
                             <h4><Link href={'/member'}>Select from our best plans</Link></h4>
                         </div>
                         :
                         <div className="row row-cols-4">
                             {orders.map((data, i) => (
-                            <div className="col card m-3" >
+                            <div key={i} className="col card m-3" >
                                 <div class="card-body">
                                     <h4 class="card-title">{data.orderName}</h4>
                                     <p class="card-text">Date :- {data.paymentDate}</p>
@@ -53,4 +53,4 @@ const myOrders = () => {
     )
 }
 
-export default myOrders
+export default MyOrders

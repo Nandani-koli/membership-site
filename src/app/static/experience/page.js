@@ -21,9 +21,9 @@ export const metadata = {
                     <ul>
                       <li>Lead the end-to-end development lifecycle of multiple high-impact projects as a Full Stack Developer, leveraging Next.js, React.js, Node.js, and MongoDB to create seamless web applications.</li>
                       <li>Architected and implemented complex features such as real-time chat and collaborative functionalities for a client-facing social media application, optimizing the user experience and system performance.</li>
-                      <li>Successfully integrated third-party APIs for payment gateways, email automations, and social media authentication to enhance the functionality of the client's product.</li>
+                      <li>Successfully integrated third-party APIs for payment gateways, email automations, and social media authentication to enhance the functionality of the client&apos;s product.</li>
                       <li>Collaborated with cross-functional teams to implement agile methodologies, ensuring timely delivery of features and continuous improvement of the product.</li>
-                      <li>Built, deployed, and maintained the company's proprietary ERP system, improving internal operational efficiency by automating business-critical processes, including customer management and data analytics.</li>
+                      <li>Built, deployed, and maintained the company&apos;s proprietary ERP system, improving internal operational efficiency by automating business-critical processes, including customer management and data analytics.</li>
                      </ul>
                   </div>
                 </div>

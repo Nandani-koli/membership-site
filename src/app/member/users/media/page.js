@@ -123,7 +123,7 @@ const Media = () => {
                         <div className="row row-cols-4">
                             {images.map((data, i) => (
 
-                                <div className=" col" >
+                                <div key={i} className=" col" >
                                     <Image
                                         src={data.image} width="300" height="300"
                                     />
