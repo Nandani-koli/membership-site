@@ -1,0 +1,72 @@
+.main_page {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(15, 2, 2, 0.7),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("/images/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_content {
+  max-width: 900px;
+  text-align: center;
+  color: #fff;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.5); /* Add transparency for better text contrast */
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+.heading {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.heading_two {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  color: #ccc;
+}
+
+.btns_grps {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.btns_grps .btn {
+  padding: 12px 20px;
+  text-transform: capitalize;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btns_grps .btn:first-child {
+  background-color: #fc0e49;
+}
+
+.btns_grps .btn:last-child {
+  background-color: #fc0e49;
+}
+
+.btns_grps .btn:hover {
+  transform: scale(1.05);
+  background-color: #d3093a;
+}
+
