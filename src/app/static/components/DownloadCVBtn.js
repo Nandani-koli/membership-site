@@ -10,7 +10,7 @@ export const DownloadCVBtn = () => {
 
     return (
         <>
-         <button className={style.btn}  onClick={()=> {router.push("https://drive.google.com/file/d/1ceOdty7A6MzzL9ShFWKImAaEI3JemjvL/view?usp=sharing")}}>Download CV </button>
+         <button className={style.btn}  onClick={()=> {router.push("https://drive.google.com/file/d/1nxn1qVIQ0d2Xe-SJzFvRG_z-HSkdGvVG/view?usp=sharing")}}>Download CV </button>
         </>
     )
 }
